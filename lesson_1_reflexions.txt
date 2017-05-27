@@ -1,0 +1,31 @@
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+-> This way you have the ability to chose what to commit and to put logical thought into each commit. 
+The cons is that if you forget to commit for example you can lose your work. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+-> saving multiple files in one commit permit comes in handy when these files are related to each other. One update of file a may affect file b. Then if we see in a commit that file b doesn't work but hasnt' been changed we go check file a. 
+
+
+
+Commands : 
+
+- Compare two commits, printing each line that is present in one commit but not the other.
+
+git diff will do this. It takes two arguments - the two commit ids to compare. 
+
+
+- Make a copy of an entire Git repository, including the history, onto your own computer.
+
+git clone will do this. It takes one argument - the url of the repository to copy. 
+
+
+- Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+git checkout will do this. It takes one argument - the commit ID to restore. 
+
+
+- Show the commits made in this repository, starting with the most recent.
+
+git log will do this. It doesn't take any arguments.
