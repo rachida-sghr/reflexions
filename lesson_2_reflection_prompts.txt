@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+-> meta data .git is added
+-> to start versioning the files in my repo
